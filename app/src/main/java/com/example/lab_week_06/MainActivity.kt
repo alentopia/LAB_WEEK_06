@@ -58,11 +58,59 @@ class MainActivity : AppCompatActivity() {
                     "Curious George",
                     "Award winning investigator",
                     "https://cdn2.thecatapi.com/images/bar.jpg"
+                ),
+                CatModel(
+                    Gender.Female,
+                    CatBreed.AmericanCurl,
+                    "Luna",
+                    "Playful and curious",
+                    "https://cdn2.thecatapi.com/images/MTY3ODIyMQ.jpg"
+                ),
+                CatModel(
+                    Gender.Male,
+                    CatBreed.ExoticShorthair,
+                    "Max",
+                    "Loves napping all day",
+                    "https://cdn2.thecatapi.com/images/B1ERTmgph.jpg"
+                ),
+                CatModel(
+                    Gender.Female,
+                    CatBreed.BalineseJavanese,
+                    "Chloe",
+                    "Elegant and calm",
+                    "https://cdn2.thecatapi.com/images/0XYvRd7oD.jpg"
+                ),
+                CatModel(
+                    Gender.Male,
+                    CatBreed.AmericanCurl,
+                    "Oliver",
+                    "Always hungry",
+                    "https://cdn2.thecatapi.com/images/6s0.jpg"
+                ),
+                CatModel(
+                    Gender.Female,
+                    CatBreed.ExoticShorthair,
+                    "Molly",
+                    "Sweet and friendly",
+                    "https://cdn2.thecatapi.com/images/8p0.jpg"
+                ),
+                CatModel(
+                    Gender.Male,
+                    CatBreed.BalineseJavanese,
+                    "Leo",
+                    "Loves climbing everywhere",
+                    "https://cdn2.thecatapi.com/images/c1a.jpg"
+                ),
+                CatModel(
+                    Gender.Unknown,
+                    CatBreed.AmericanCurl,
+                    "Misty",
+                    "Strong and brave",
+                    "https://cdn2.thecatapi.com/images/9j5.jpg"
                 )
             )
         )
     }
-
     private fun showSelectionDialog(cat: CatModel) {
         AlertDialog.Builder(this)
             .setTitle("Cat Selected")
